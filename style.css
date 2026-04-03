@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #2e7d32;
+    color: white;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f1f8e9;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.donate {
+    background: #ff7043;
+    color: white;
+}
+
+.find {
+    background: #43a047;
+    color: white;
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #ffffff;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: #e8f5e9;
+    width: 150px;
+}
+
+/* About */
+.about {
+    text-align: center;
+    padding: 50px;
+    background: #f9fbe7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2e7d32;
+    color: white;
+}
